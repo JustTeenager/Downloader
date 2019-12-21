@@ -12,7 +12,7 @@ public class DownloadPic extends AsyncTask {
     @Override
     protected Object doInBackground(Object[] objects) {
         try {
-            URL url = new URL("https://daks2k3a4ib2z.cloudfront.net/56cf5dcdd3b4fc4579d08bef/56cf5dced3b4fc4579d08bf8_BomberMario-icon-300x300.jpg");
+            URL url = new URL("https://www.meme-arsenal.com/memes/27143b2cb7241aa1a6c22a8e31663d07.jpg");
             bitmap= Bitmap.createBitmap(BitmapFactory.decodeStream((InputStream) url.getContent()));
         } catch (IOException e) {
             e.printStackTrace();
